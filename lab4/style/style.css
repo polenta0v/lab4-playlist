@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a19b85e5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #dfcdcd;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.description {
+    padding: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+h5 {
+    font-size: 1em;
+    color: #666;
+    margin: 5px 0;
+}
+
+p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.player {
+    transition: 1s;
+    opacity: 0;
+    background-color: #a59d9d;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.player img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.player h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#volume-slider {
+    width: 100px;
+}
+
+#seek-bar {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#play-pause-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#play-pause-btn:hover {
+    background-color: #0056b3;
+}
+
+#time {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
